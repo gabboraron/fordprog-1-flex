@@ -155,7 +155,8 @@ A sor változót meg a `lineno()` függvény váltja ki:
 ````
 # Flex regex
 > eredeti itt: http://people.cs.aau.dk/~marius/sw/flex/Flex-Regular-Expressions.html
-Flex Regular Expressions
+
+**Flex Regular Expressions**
 
 The characters and literals may be described by:
 
@@ -220,11 +221,7 @@ For instance -?([0-9]+|[0-9]*\.[0-9]+([eE][-+]?[0-9]+)?) matches C integer and f
 One may also depend upon the context:
 
 `r/s`
-    Match an r but only if it is followed by an s. This type of pattern is called trailing context. The text matched by s is included when determining whether this rule is the "longest match", but is then returned to the input before the action is executed. So the action only sees the text matched by r. Using trailing contexts can have a negative impact on the scanner, in particular the input buffer can no longer grow upon demand. In addition, it can produce correct but surprising errors. Fortunately it is seldom needed, and only to process pathologic languages such as Fortran. For instance to recognize its loop keyword, do, one needs:
-
-    DO/[A-Z0-9]*=[A-Z0-9]*,
-
-    to distinguish DO1I=1,5, a for loop where I runs from 1 to 5, from DO1I=1.5, a definition/assignment of the floating variable DO1I to 1.5. Voir Fortran and Satellites, for more on Fortran loops and traps.
+    Match an r but only if it is followed by an s. This type of pattern is called trailing context. The text matched by s is included when determining whether this rule is the "longest match", but is then returned to the input before the action is executed. So the action only sees the text matched by r. Using trailing contexts can have a negative impact on the scanner, in particular the input buffer can no longer grow upon demand. In addition, it can produce correct but surprising errors. Fortunately it is seldom needed, and only to process pathologic languages such as Fortran. For instance to recognize its loop keyword, do, one needs: `DO/[A-Z0-9]*=[A-Z0-9]*`,to distinguish `DO1I=1,5`, a `for` loop where I runs from `1` to `5`, from `DO1I=1.5`, a `definition/assignment` of the floating variable `DO1I` to `1.5`. Voir Fortran and Satellites, for more on Fortran loops and traps.
 `^r`
     Match an r at the beginning of a line.
 `r$`
