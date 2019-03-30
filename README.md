@@ -1,6 +1,6 @@
 # Flex
 > Ez csak egy átirat, az eredeti leírás itt: http://deva.web.elte.hu/fordprog/flex-tutorial.pdf
-> eredti tesztfájlok: http://deva.web.elte.hu/fordprog/while2019-tesztfajlok.zip
+> eredeti tesztfájlok: http://deva.web.elte.hu/fordprog/while2019-tesztfajlok.zip
 > eredeti példaprogram: http://deva.web.elte.hu/fordprog/lexikalis-pelda.zip itt:`lexikalis-pelda.zip`
 > az alábbi példaprogramok eredetije: http://deva.web.elte.hu/fordprog/flex-peldak.zip
 > itt találhatóak.
